@@ -8,10 +8,7 @@ edition = "2021"
 [dependencies]
 web3 = { version = "0.18.0" }
 
-secp256k1 = { version = "0.24.0", all-features = true, features = [
-    "rand",
-    "recovery",
-] }
+secp256k1 = { version = "0.24.0", features = ["rand", "recovery"] }
 # used by secp
 rand = { version = "0.8.5", features = ["getrandom"] }
 hex = "0.4.3"
