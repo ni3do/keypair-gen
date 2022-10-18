@@ -6,11 +6,7 @@ This repo implements private key generation in Rust. Currently only Ethereum is 
 
 Clone the repo:
 
-    git clone
-
-Install the dependencies:
-
-    cargo install
+    git clone git@github.com:ni3do/keypair-gen.git
 
 Run the program:
 
